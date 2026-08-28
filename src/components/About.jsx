@@ -23,7 +23,7 @@ export default function About() {
               <div className="absolute -top-4 -left-4 w-full h-full border border-gold/30 z-0" />
               <div className="relative z-10 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=80"
+                  src="/assets/images/christopher.jpg"
                   alt="Tour guide"
                   className="w-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
                   style={{ height: "520px", objectPosition: "top" }}
