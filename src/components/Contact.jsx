@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { useLang } from "../i18n/LangContext";
+import emailjs from '@emailjs/browser';
 
 const WHATSAPP_NUMBER = "51933445293";
 
@@ -23,12 +24,30 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setLoading(false);
+  e.preventDefault();
+  setLoading(true);
+  try {
+    await emailjs.send(
+      'service_yhf4y9k',
+      'template_fhvhfya',
+      {
+        name: form.name,
+        email: form.email,
+        country: form.country,
+        date: form.date,
+        people: form.people,
+        service: form.service,
+        message: form.message,
+      },
+      'kRnu94T9xMiz1-Nfv'
+    );
     setSent(true);
-  };
+  } catch (error) {
+    alert('Error al enviar. Por favor escríbenos por WhatsApp.');
+    console.error(error);
+  }
+  setLoading(false);
+};
 
   const f = c.form;
 

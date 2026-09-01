@@ -207,8 +207,8 @@ export const translations = {
       ],
       form: {
         name_label: "Tu nombre *", name_placeholder: "Ana García",
-        country_label: "País de origen", country_placeholder: "Chile",
-        email_label: "Email *", email_placeholder: "ana@email.com",
+        country_label: "País de origen", country_placeholder: "Estados Unidos",
+        email_label: "Tu Email *", email_placeholder: "ana@email.com",
         date_label: "Fecha del tour",
         people_label: "N° personas",
         people_options: ["persona", "personas"],
@@ -457,7 +457,7 @@ export const translations = {
       form: {
         name_label: "Your name *", name_placeholder: "Jane Smith",
         country_label: "Country of origin", country_placeholder: "USA",
-        email_label: "Email *", email_placeholder: "jane@email.com",
+        email_label: "Your Email *", email_placeholder: "jane@email.com",
         date_label: "Tour date",
         people_label: "No. of people",
         people_options: ["person", "people"],
