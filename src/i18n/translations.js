@@ -222,10 +222,10 @@ export const translations = {
         btn_whatsapp: "Enviar por WhatsApp",
       },
       success_title: "¡Mensaje enviado!",
-      success_desc: "Cristhofer se pondrá en contacto contigo en menos de 24 horas. También puedes escribirle por WhatsApp para una respuesta más rápida.",
+      success_desc: "Christopher se pondrá en contacto contigo en menos de 24 horas. También puedes escribirle por WhatsApp para una respuesta más rápida.",
       success_cta: "Continuar por WhatsApp",
       whatsapp_msg: (name, date, people, service, message) =>
-        `Hola Cristhofer! 👋 Me llamo ${name || "..."} y quisiera consultar sobre un tour en Miraflores.\n\n📅 Fecha: ${date || "por confirmar"}\n👥 Personas: ${people}\n🗺️ Servicio: ${service || "por definir"}\n\n${message || ""}`,
+        `Hola Christopher! 👋 Me llamo ${name || "..."} y quisiera consultar sobre un tour en Miraflores.\n\n📅 Fecha: ${date || "por confirmar"}\n👥 Personas: ${people}\n🗺️ Servicio: ${service || "por definir"}\n\n${message || ""}`,
     },
 
     // ---------- FOOTER ----------
@@ -250,7 +250,7 @@ export const translations = {
     // ---------- WHATSAPP FLOAT ----------
     whatsappFloat: {
       tooltip: "¡Escríbeme ahora!",
-      msg: "Hola Cristhofer! 👋 Me interesa reservar un tour en Miraflores. ¿Tienes disponibilidad?",
+      msg: "Hola Christopher! 👋 Me interesa reservar un tour en Miraflores. ¿Tienes disponibilidad?",
     },
   },
 
@@ -292,9 +292,9 @@ export const translations = {
       eyebrow: "About me",
       h2_line1: "Your trusted guide",
       h2_accent: "in Miraflores",
-      p1: "I'm Cristhofer Bobadilla, a certified driver and official tour guide with over 8 years showing the best of Lima to travelers from around the world. I was born and raised in Miraflores, so I don't just know the places — I know the stories behind every corner.",
+      p1: "I'm Christopher Bobadilla, a certified driver and official tour guide with over 8 years showing the best of Lima to travelers from around the world. I was born and raised in Miraflores, so I don't just know the places — I know the stories behind every corner.",
       p2: "My mission is for you to leave with more than photos: to leave with experiences, flavors and memories that last a lifetime. Every tour is custom-designed around what you want to live.",
-      cta: "Chat with Cristhofer",
+      cta: "Chat with Christopher",
       badge: "Years guiding",
       features: [
         { icon: "🗣️", label: "Languages",      value: "Spanish · English" },
@@ -471,10 +471,10 @@ export const translations = {
         btn_whatsapp: "Send via WhatsApp",
       },
       success_title: "Message sent!",
-      success_desc: "Cristhofer will get in touch with you within 24 hours. You can also message him on WhatsApp for a faster response.",
+      success_desc: "Christopher will get in touch with you within 24 hours. You can also message him on WhatsApp for a faster response.",
       success_cta: "Continue on WhatsApp",
       whatsapp_msg: (name, date, people, service, message) =>
-        `Hi Cristhofer! 👋 My name is ${name || "..."} and I'd like to ask about a tour in Miraflores.\n\n📅 Date: ${date || "to be confirmed"}\n👥 People: ${people}\n🗺️ Service: ${service || "to be defined"}\n\n${message || ""}`,
+        `Hi Christopher! 👋 My name is ${name || "..."} and I'd like to ask about a tour in Miraflores.\n\n📅 Date: ${date || "to be confirmed"}\n👥 People: ${people}\n🗺️ Service: ${service || "to be defined"}\n\n${message || ""}`,
     },
 
     footer: {
@@ -497,7 +497,7 @@ export const translations = {
 
     whatsappFloat: {
       tooltip: "Message me now!",
-      msg: "Hi Cristhofer! 👋 I'm interested in booking a tour in Miraflores. Do you have availability?",
+      msg: "Hi Christopher! 👋 I'm interested in booking a tour in Miraflores. Do you have availability?",
     },
   },
 };
