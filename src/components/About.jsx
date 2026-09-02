@@ -26,7 +26,7 @@ export default function About() {
                   src="/assets/images/christopher.jpg"
                   alt="Tour guide"
                   className="w-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
-                  style={{ height: "520px", objectPosition: "top" }}
+                  style={{ height: "520px", objectPosition: "right top" }}
                 />
                 <div className="absolute bottom-6 right-6 bg-gold text-ocean px-5 py-4 text-center">
                   <p className="font-display text-4xl font-bold leading-none">8+</p>
